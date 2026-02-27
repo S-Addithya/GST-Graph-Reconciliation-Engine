@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.egg-info/
+dist/
+build/
+
+# Environment variables — NEVER commit your API keys
+.env
+.env.local
+.env.production
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Neo4j
+*.dump
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
